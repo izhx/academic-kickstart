@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>赵煜 | 未名实验室</title>
+    <link>/author/%E8%B5%B5%E7%85%9C/</link>
+      <atom:link href="/author/%E8%B5%B5%E7%85%9C/index.xml" rel="self" type="application/rss+xml" />
+    <description>赵煜</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2020 - 2020</copyright>
+    <image>
+      <url>/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
+      <title>赵煜</title>
+      <link>/author/%E8%B5%B5%E7%85%9C/</link>
+    </image>
+    
+  </channel>
+</rss>

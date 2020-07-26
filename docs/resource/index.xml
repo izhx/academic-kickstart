@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>公共资源 | 未名实验室</title>
+    <link>/resource/</link>
+      <atom:link href="/resource/index.xml" rel="self" type="application/rss+xml" />
+    <description>公共资源</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2020 - 2020</copyright>
+    <image>
+      <url>/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
+      <title>公共资源</title>
+      <link>/resource/</link>
+    </image>
+    
+  </channel>
+</rss>
