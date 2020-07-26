@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors | 未名实验室</title>
-    <link>/authors/</link>
-      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://izhx.github.io/academic-kickstart/authors/</link>
+      <atom:link href="https://izhx.github.io/academic-kickstart/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2020 - 2020</copyright><lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
+      <url>https://izhx.github.io/academic-kickstart/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
       <title>Authors</title>
-      <link>/authors/</link>
+      <link>https://izhx.github.io/academic-kickstart/authors/</link>
     </image>
     
   </channel>

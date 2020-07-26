@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post | 未名实验室</title>
-    <link>/category/post/</link>
-      <atom:link href="/category/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://izhx.github.io/academic-kickstart/category/post/</link>
+      <atom:link href="https://izhx.github.io/academic-kickstart/category/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Post</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>zh-Hans</language><copyright>© 2020 - 2020</copyright><lastBuildDate>Thu, 23 Jul 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
+      <url>https://izhx.github.io/academic-kickstart/images/logo_hu13c46c3226353ec6304fcc5dee9c1ca1_20267_300x300_fit_lanczos_2.png</url>
       <title>Post</title>
-      <link>/category/post/</link>
+      <link>https://izhx.github.io/academic-kickstart/category/post/</link>
     </image>
     
     <item>
       <title>使用Hugo Academic建立了实验室主页</title>
-      <link>/post/20200723-begin/</link>
+      <link>https://izhx.github.io/academic-kickstart/post/20200723-begin/</link>
       <pubDate>Thu, 23 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>/post/20200723-begin/</guid>
+      <guid>https://izhx.github.io/academic-kickstart/post/20200723-begin/</guid>
       <description>&lt;p&gt;&lt;strong&gt;终于拥有正式的实验室主页了！&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;可以写新闻稿、博客，甚至是代码！&lt;/p&gt;
 </description>
