@@ -1,0 +1,75 @@
+{{- define "main" -}}
+
+{{/* Author profile page. */}}
+
+{{/* If an account has not been created for this user, just display their name as the title. */}}
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1>{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{/* Show the About widget if an account exists for this user. */}}
+    {{ if .File }}
+      {{ $widget := "widgets/about.html" }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $params := dict "root" $ "page" . "author" $username }}
+      {{ partial $widget $params }}
+    {{end}}
+
+    {{ $query := where .Pages ".IsNode" false }}
+    {{ $post := where $query ".Type" "post" }}
+    {{ $count := len $post }}
+    {{ if $count }}
+    <div class="article-widget content-widget-hr">
+      <h3>新闻动态</h3>
+      <ul>
+        {{ range $post }}
+        <li>{{ partial "li_list" . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ $pub := where $query ".Type" "publication" }}
+    {{ $count := len $pub }}
+    {{ if $count }}
+    <div class="article-widget content-widget-hr">
+      <h3>论文专著</h3>
+      <ul>
+        {{ range $pub.ByDate.Reverse }}
+
+        {{ if .Params.publication_types }}
+          {{ $.Scratch.Set "pubtype" (index .Params.publication_types 0) }}
+        {{ else }}
+          {{ $.Scratch.Set "pubtype" 0 }}
+        {{ end }}
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-{{ $.Scratch.Get "pubtype" }} year-{{ .Date.Format "2006" }}">
+          {{ partial "li_citation" . }}
+        </div>
+
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{ $project := where $query ".Type" "project" }}
+    {{ $count := len $project }}
+    {{ if $count }}
+    <div class="article-widget content-widget-hr">
+      <h3>项目一览</h3>
+      <ul>
+        {{ range $project }}
+        <li>{{ partial "li_compact" . }}</li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+  </div>
+</section>
+
+{{- end -}}
