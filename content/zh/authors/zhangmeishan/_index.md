@@ -69,7 +69,7 @@ email: ""
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 负责人
+- 教师
 ---
 
 博士毕业于哈工大社会计算与信息检索研究中心，师从刘挺教授，与西湖大学张岳，苏州大学付国宏、李正华，武汉大学姬东鸿等合作密切。
